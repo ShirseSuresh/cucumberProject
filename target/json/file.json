@@ -1,0 +1,92 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-20T15:16:25.776Z",
+        "line": 41,
+        "name": "Validate Application Logo Height and Width On Landing page",
+        "description": "",
+        "id": "test-the-e-commerce-app-landing-page;validate-application-logo-height-and-width-on-landing-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2608707000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User open the browser",
+            "match": {
+              "location": "com.qa.cucumber.stepdef.StepDefination.user_open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 509334500,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user maximize the browser",
+            "match": {
+              "location": "com.qa.cucumber.stepdef.StepDefination.user_maximize_the_browser()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9370123900,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User open the Url \"http://automationpractice.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.qa.cucumber.stepdef.StepDefination.user_open_the_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 45,
+            "name": "User Validate Application Logo height AND width",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@logoHight"
+          }
+        ]
+      }
+    ],
+    "name": "Test the e-commerce app landing page",
+    "description": "  For smoke test\n  1. URL Redirection\n  2. Landing page title test",
+    "id": "test-the-e-commerce-app-landing-page",
+    "keyword": "Feature",
+    "uri": "classpath:features/FirstFeatureFile.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
